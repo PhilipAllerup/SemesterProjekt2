@@ -1,0 +1,400 @@
+<html lang="en">
+    <head>
+        <title>VIP COIFFURE</title>
+        <meta charset="utf-8">
+        <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="menuScript.js"></script>
+        <script src="jsongalleri.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="form.js"></script>
+    </head>
+    <body>
+        <div class ="wrapper">
+            <!--MENUBAR-->
+
+            <div class="navv">
+                <nav class="nav">    
+                    <a href="#" class="logo"><img src="Image/Billede1.png" width="75px;"></a>
+                    <!--Når skærmen bliver mindre så kommer der en ny menubar-->
+                    <a href="#" class="toggle-button">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </a>
+                    <!--Menubaren-->    
+                    <div class="nav_links">
+                        <ul>
+                            <li><a href="#home">Forside</a></li>
+                            <li><a href="#home">Booking</a></li>
+                            <li><a href="#priser">Priser</a></li>
+                            <li><a href="#produkter">Produkter</a></li>
+                            <li><a href="#team">Om os</a></li>
+                            <li><a href="#inspiration">Inspiration</a></li>
+                            <li><a href="#kontakt">Kontakt</a></li> 
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <!--HOME-->                      
+            <!-- Okay med jeg kalder den Intro billede --> 
+            <section id="home">
+                <div class ="home" style="position: relative;">
+                    <img src="Image/IntroBillede.jpg" width="100%" height="auto">
+                    <button onclick="location.href='https://salonbook.one/?vip#/'" id="bookingButton"> Book Nu </button>    
+                </div>
+            </section>
+            <!--PRISER-->
+            <div class="priser" id="priser">
+                <section class="priser">
+                    <div class ="price_container">
+                        <h2 id = "price_title">Prisliste</h2>
+                        <div class =price_content id = price_section1>
+                            <h2 class="price_headline">Børn</h2>
+                            <table id ="kids_price_table">
+                                <tr>
+                                    <td>Børn 0 - 2 år</td>
+                                    <td><hr></td>
+                                    <td>295 kr</td>
+                                </tr>
+                                <tr>         
+                                    <td>Børn 3 - 8 år</td>
+                                    <td><hr></td>
+                                    <td>310 kr</td>
+                                </tr>
+                                <tr>
+                                    <td>Drenge 9 - 11 år</td>
+                                    <td><hr></td>
+                                    <td>310 kr</td>
+                                </tr>
+                                <tr>
+                                    <td>Pige 9 - 11 år</td>
+                                    <td><hr></td>
+                                    <td>430 kr</td>
+                                </tr>
+                                <tr>
+                                    <td>Pandehårsklip</td>
+                                    <td><hr></td>
+                                    <td>130 kr</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class ="price_content" id = "price_section2">
+                            <h2 class="price_headline">Damer</h2>
+                            <table id ="Womens_price_table">
+                                <tr>
+                                    <td>Dameklip</td>
+                                    <td><hr></td>
+                                    <td>550 kr</td>
+                                </tr>
+                                <tr>
+                                    <td>Dameklip studerende</td>
+                                    <td><hr></td>
+                                    <td>520 kr</td>
+                                </tr>
+                                <tr>
+                                    <td>Dameklip pensionist</td>
+                                    <td><hr></td>
+                                    <td>500 kr</td>
+                                </tr>
+                                <tr>
+                                    <td>Hår Farvning</td>
+                                    <td><hr></td>
+                                    <td> fra 500 kr</td>
+                                </tr>
+                                <tr>
+                                    <td>Hår opsætning</td>
+                                    <td><hr></td>
+                                    <td>fra 300 kr</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class ="price_content" id = "price_section3">
+                            <h2 class = "price_headline">Herre</h2>
+                            <table id ="mens_price_table">
+                                <tr>
+                                    <td>Herreklip</td>
+                                    <td><hr></td>
+                                    <td>330 kr</td>
+                                </tr>
+                                <tr>
+                                    <td>Herreklip studerende</td>
+                                    <td><hr></td>
+                                    <td>310 kr</td>
+                                </tr>
+                                <tr>
+                                    <td>Herreklip maskineklip </td>
+                                    <td><hr></td>
+                                    <td>170 kr</td>
+                                </tr>
+                                <tr>
+                                    <td>Herreklip pensionist</td>
+                                    <td><hr></td>
+                                    <td>280 kr</td>
+                                </tr>
+                                <tr>
+                                    <td>Herre pensionist</td>
+                                    <td><hr></td>
+                                    <td>280 kr</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>  
+                </section>
+            </div>
+            <!--PRODUKTER-->
+            <section id="produkter">
+                <div class="produkter">
+                    <h1 style="text-align: center;">Produkter og vejledning</h1>
+                    <div class="slideshow-container">
+                        <div class="mySlides">
+                            <!-- Billede 1-->
+                            <div class="numbertext">1 / 4</div>
+                            <img src="Billede%201.PNG" height="250" style="width:80%">
+                            <div class="text">Stort udvalg af produkter.</div>
+                        </div>
+                        <div class="mySlides">
+                            <!-- Billede 2-->
+    
+                            <div class="numbertext">2 / 4</div>
+                            <img src="Billede%202.PNG" height="250" style="width:80%">
+                            <div class="text">Produkter og pleje til alle typer hår.</div>
+                        </div>
+                        <div class="mySlides">
+                            <!-- Billede 3-->
+                            <div class="numbertext">3 / 4</div>
+                            <img src="Billede%203.PNG" height="250" style="width:80%">
+                            <div class="text">Produkter og skægpleje til mænd.</div>
+                        </div>
+                        <div class="mySlides">
+                            <!-- Billede 4-->
+                            <div class="numbertext">4 / 4</div>
+                            <img src="Billede%204.PNG" height="250" style="width:80%" style="left:10%"
+                                 >
+                            <div class="text">Produkter til kvinder.</div>
+                        </div>
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    </div>
+                    <!--<br>-->
+                    <div style="text-align:center">
+                        <span class="dot" onclick="currentSlide(1)"></span> 
+                        <span class="dot" onclick="currentSlide(2)"></span> 
+                        <span class="dot" onclick="currentSlide(3)"></span> 
+                        <span class="dot" onclick="currentSlide(4)"></span>
+                        <script src="sliderScript.js"></script>
+                    </div>
+                    <div id ="product_text">       
+                        <p style="padding-top:50px;"> 
+                            Hos VIP Coiffure har vi et bredt sortiment af produkter fra udvalgte mærker af høj kvalitet.<br>
+                            Når du kommer ind i salonen, er vi klar til at vejlede dig, så du får kendskab til de bedste produkter til pleje og vedligeholdelse af dit hår og hovedbund efter dine behov.
+                            <br> Vi lægger vægt på personlig rådgivning i forhold til produktvalg, så du får en god oplevelse. Mærkerne som vi fører er følgende.  
+                        </p>
+                        <img src="Image/ProductBrands.png" alt="Produkt mærker" style="width: 47%;"
+                             > 
+                        <p>
+                            På vores Facebookside afholder vi løbende konkurrencer, hvor du kan være heldig at vinde månedens produkt. <br>
+                            <a style="color:lightgoldenrodyellow "href="https://www.facebook.com/Vip-coiffure-158022187632122/"> Klik her og vær med i konkurrencen.</a>
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <!-- Om os/ vores team -->
+            <div class="team" id="team">
+                <section id="team">
+                    <div class ="team_title">
+                        <h1 style="text-align: center;">Om os</h1>   
+                             <img src="Image/butik2"
+                                  width="35%" height="auto"
+                                  class="front">
+                          <p>  Frisør, Vip Coiffure åbnede i 1996. Siden da har ejerne- og frisørmesterne Sanne og Jan været med til at udlære en lang række dygtige elever.<br>
+                            I dag består teamet hos Vip Coiffure af indehaverne Sanne og Jan samt deres to elever Line og Kaja.<br>
+                            Vip Coiffure er en lokal frisør i Tarup, som ligger på Rugårdstorvet; Rugårdsvej 191. 
+                        </p>
+                    </div>
+                    <div class ="team_staff">
+                        <div> 
+                            <img id="Sanne" src="Image/team/Sanne2.png" alt="Sanne">
+                            <p style="margin-left: 15%;">
+                                Hej, det er mig som er Sanne.<br>Jan og jeg er indehavere af salon Vip Coiffure. 
+                                Vi åbnede salonen tilbage i 1996 og har siden dengang udlært mange elever.<br>
+                                Jeg brænder for frisørfaget og er ved siden af arbejdet i salonen er jeg hovedbestyrelsesmedlem i DOFK, Danmarks Frisørmester forening.
+                                <br> og er ude som sensor til svendeprøver.  
+                                Jeg har ordnet hår i mange år og elsker variationen, der er med frisørarbejdet,<br> alt fra klip og farve til opsætning at hår og meget mere.  
+                            </p>
+                        </div>
+                        <div> 
+                            <img id="Jan" src="Image/team/Jan.PNG" alt="Jan">
+                            <p>
+                                Hej, mit navn er Jan.<br> Sammen med Sanne har jeg drevet salon Vip Coiffure i mange år. Jeg er perfektionist til fingerspidserne og har været i frisørfaget længe. Jeg laver alt hvad frisørfaget indebærer, det handler for mig om at nå frem til det resultat du bliver glad for. 
+                            </p>
+                        </div>
+                        <div>          
+                            <img id="Kaja" src="Image/team/Kaja2.png" alt="Kaja">
+                            <p style="margin-left: 15%;">
+                                Hej, jeg hedder Kaja.<br> Jeg har altid gerne ville være frisør og nu er jeg elev hos Vip Coiffure.<br> 
+                                Jeg elsker at kræse for detaljen og være med til at finde det look som kunden bliver mest glad for.<br>
+                                Jeg laver mest klip og farve og er klar med inspiration, hvis du har brug for det. 
+                            </p>
+                        </div>
+                        <div>      
+                            <img id="Line" src="Image/team/Line2.png" alt="Line">
+                            <p>
+                                Hej, mit navn er Line.<br> Jeg er elev hos Vip Coiffure og er færdigudlært til sommer. 
+                                <br>Jeg elsker at være frisør og arbejde med kunder. 
+                                Som frisør kan man gøre en forskel ved at give kunderne en god, behagelig oplevelse<br>
+                                og finde den frisure der passer netop til kunden, alt efter behov og ønsker. <!--Udgangspunktet er altid forskelligt. -->
+                            </p>
+                        </div>
+                    </div>  
+                </section>
+            </div> 
+            
+            <!-- Inspiration -->
+            
+            <script>
+                function showDataWithImages() {
+
+                    //Det her gør så at lortet kan loades uden at skulle reloade hele siden.
+                    //delen før : er til nyere browsers, efter er til gamle internetExplorer.
+                    var oXHR = window.XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP');
+                    function reportStatus() {
+                        if (oXHR.readyState == 4)               // Request completed.
+                            showTheList(this.responseText);     // All set. Now show the data.
+                    }
+                    oXHR.onreadystatechange = reportStatus;
+                    oXHR.open("GET", "./json.json", true);   // true = asynchronous request, false = synchronous request.
+                    oXHR.send();
+                    
+                    function showTheList(json) {
+                        var arrItems = [];
+                        arrItems = JSON.parse(json); 	// Populate array with JSON data.
+
+                        var div = document.getElementById('inspirationGallery');     // The parent <div>.
+                        div.innerHTML = '';
+
+                        // Loop through data in the JSON array.
+                        for (i = 0; i <= arrItems.length - 1; i++) {
+                        //vi laver et table row
+                            var divTop = document.createElement('div');
+                            var img = document.createElement('img');
+                            img.src = arrItems[i].File;
+                            divTop.setAttribute('id', 'inspirationbox');
+                            divTop.appendChild(img);
+
+                            var divMid = document.createElement('div')
+                            divMid.innerHTML = arrItems[i].ProduktNavn;
+
+                            // Add the child DIVs to parent DIV.
+                            div.appendChild(divTop);
+                        }
+                    }       
+                }
+                document.onload = showDataWithImages();
+            </script>
+            
+            <section id="inspiration" >
+                <h1 id="inspotext"> Inspiration </h1>
+                <div id='inspirationGallery'>
+                </div>
+            </section>
+            
+             
+            <!-- Form -->
+              
+            <div class="kontakt" id="kontakt">
+                <section id="kontakt">
+                    <div class ="form_container">
+                        <h2>Kontakt Os</h2>
+                        <p>
+                            Kontakt os på telefon eller udfyld denne formular<br>og vi vil kontakte jer så hurtigt som muligt
+                        </p>
+                        <form class =form_contactInfoClass id = "form_contactInfoId" action="a webpage that might pop up ?" method="get" >
+                            <!-- method="get"  -->
+                            <figcaption>Name</figcaption>
+                            <div id = "form_fullname">
+                                <input type="text" class="form_val" id ="form_name" name="fm_name" placeholder="Fornavn" value=""required>
+                                <span>
+                                    <input type ="text" class="form_val" id = "form_lastname" name="fm_last" placeholder =" Efternavn" value ="">
+                                </span>
+                            </div>
+                            <figcaption>Email</figcaption>
+                            <input type ="email" class="form_val"  id = "form_email" name ="fm_email" placeholder="email" value ="" required>
+                            <figcaption>Tlf</figcaption>
+                            <input type="tel" class="form_val" id ="form_tlf" name ="fm_tlf"  placeholder="tlf" value ="" required>
+                            <figcaption>Besked</figcaption>
+                            <textarea  class="form_val" id ="form_message" name ="fm_message" placeholder="Besked" value =""></textarea> 
+                            <!-- <input type="submit" id ="btnsubmit"> -->
+                            <button type ="submit" id ="form_submit_btn">Submit</button>  
+                            <input type = "checkbox"  id ="form_remember_btn" name ="remember_contact">
+                            <label for="remember_contact" style= "font-size: 12px">Husk mig</label>
+                        </form>
+                    </div> 
+                </section>
+            </div>
+            <!--FOOTER-->
+            <div class = "footer">
+                <div class = "footer_contact">
+                    <h3 id ="footer_title">Kontakt</h3>
+                    <div class = "footer_icons">
+                        <img src = "Image/icons/pin-8-32.png" id ="pin_icon"><span>Rugårdsvej 191 5210 Odense NV</span>
+                        <div>
+                            <img src="Image/icons/phone-32.png"id="phone_icon"><span>Tlf. :     66161747</span>
+                        </div>
+                        <div>
+                            <a href = "https://www.facebook.com/pages/category/Hair-Salon/Vip-coiffure-158022187632122/"><img src="Image/icons/f_logo_RGB-Grey_58.png" id="fb_icon" alt="fbicon"><span>Følg os på Facebook</span></a> 
+                        </div>
+                        <div>
+                            <a href= "https://www.instagram.com/vip_coiffure/" ><img   src="Image/icons/Instagram.png" id =instagram_icon><span>Følg os på Instagram</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class = "footer_openinghours">
+                    <h3 id = openinghours_title>Åbningstider</h3>
+                    <div class = "div_openinghours">
+                        <table class="table_openinghours">
+                            <tr>
+                                <td>Mandag</td>
+                                <td><hr></td>
+                                <td>09.00 - 17.30</td>
+                            </tr>
+                            <tr>
+                                <td>Tirsdag</td>
+                                <td><hr></td>
+                                <td>09.00 - 17.30</td>
+                            </tr>
+                            <tr>
+                                <td>Onsdag</td>
+                                <td><hr></td>
+                                <td>09.00 - 17.30</td>
+                            </tr>
+                            <tr>
+                                <td>Torsdag</td>
+                                <td><hr></td>
+                                <td>09.00 - 17.30</td>
+                            </tr>
+                            <tr>
+                                <td>Fredag</td>
+                                <td><hr></td>
+                                <td>09.00 - 18.00</td>
+                            </tr>
+                            <tr>
+                                <td>Lørdag</td>
+                                <td><hr></td>
+                                <td>09.00 - 13.30</td>
+                            </tr>
+                            <tr>
+                                <td>Søndag</td>
+                                <td><hr></td>
+                                <td>Lukket</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div id="rf_logo">
+                    <img src="Image/icons/RealCoffirue_logo.png">
+                </div>
+            </div>
+        </div><!-- End Of Wrapper --> 
+    </body>
+</html>
