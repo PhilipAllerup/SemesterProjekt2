@@ -1,0 +1,64 @@
+[
+    {
+        "ID": "001",
+        "ProduktNavn": "produkt1",
+        "Desc": "ProduktBeskrivelse1",
+        "File": "Image/Inspirationsbilleder/Inspo1.png" 
+    },
+  
+    {
+        "ID": "002",  
+        "ProduktNavn": "produkt2",
+        "Desc": "ProduktBeskrivelse2", 
+        "File": "Image/Inspirationsbilleder/Inspo2.png"
+    },
+  
+    {
+        "ID": "003",  
+        "ProduktNavn": "produkt3",
+        "Desc": "ProduktBeskrivelse3", 
+        "File": "Image/Inspirationsbilleder/Inspo3.png"
+    },
+  
+    {
+        "ID": "004",  
+        "ProduktNavn": "produkt4",
+        "Desc": "ProduktBeskrivelse4", 
+        "File": "Image/Inspirationsbilleder/Inspo4.png"
+    },
+  
+    {
+        "ID": "005",  
+        "ProduktNavn": "produkt5",
+        "Desc": "ProduktBeskrivelse5", 
+        "File": "Image/Inspirationsbilleder/Inspo5.png"
+    },
+  
+    {
+        "ID": "006",  
+        "ProduktNavn": "produkt6",
+        "Desc": "ProduktBeskrivelse6", 
+        "File": "Image/Inspirationsbilleder/Inspo7.png"
+    },
+  
+    {
+        "ID": "004",  
+        "ProduktNavn": "produkt4",
+        "Desc": "ProduktBeskrivelse4", 
+        "File": "Image/Inspirationsbilleder/Inspo6.png"
+    },
+  
+    {
+        "ID": "005",  
+        "ProduktNavn": "produkt5",
+        "Desc": "ProduktBeskrivelse5", 
+        "File": "Image/Inspirationsbilleder/Inspo8.png"
+    },
+  
+    {
+        "ID": "006",  
+        "ProduktNavn": "produkt6",
+        "Desc": "ProduktBeskrivelse6", 
+        "File": "Image/Inspirationsbilleder/Inspo9.png"
+    }
+]
