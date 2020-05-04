@@ -213,15 +213,15 @@ height: auto;
   width: auto;
   padding: 16px;
   margin-top: -22px;
-  color: gray;
+  color: whitesmoke;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 30px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
 }
 
-/* Pilene man krykker på for at skifte billede, lidt buede hjørner indad */
+/* Pilene man trykker på for at skifte billede, lidt buede hjørner indad */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
@@ -239,7 +239,7 @@ height: auto;
   padding: 8px 12px;
   position: absolute;
   bottom: -33px;
-left: -1px;
+  left: -1px;
   width: 100%;
   text-align: center;
 }
