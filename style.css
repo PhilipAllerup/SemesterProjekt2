@@ -143,29 +143,29 @@ height: auto;
 
 #frontpagepic
 {
-    Background-Image: url(image/IntroBillede.jpg);
+   
     background-repeat: no-repeat;
     background-size: 100%;
     height: auto;;
-    min-height: 250px;
-    max-height: 600px;
     position: relative;
     justify-content: center;
     display: flex;
+    opacity: 80%;
+    
 }
 
 /*BOOKING KNAP*/
 
 #bookingButton{
     position:absolute;
-    top: 45%;
+    top: 65%;
     left: 44%;
     z-index: 90;
     opacity: 0.8;
     border: none;
     outline: none;
-    width: 120px;
-    height: 45px;
+    width: 200px;
+    height: 90px;
     background-color: #363636;
     border-radius: 20px;
     border-color: black;
