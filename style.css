@@ -627,12 +627,7 @@ font-weight: bold;
    
      color: lightgray;
 }
-.footer_icons
-{
-   
-  
-  
-}
+
 .footer div
 {
       margin-top: 25px;
@@ -685,7 +680,7 @@ font-weight: bold;
     position: relative;
     float: left;
     width: 33%;
-    left: 800;
+    left: 350;
     bottom:100;
     margin-left: 20px;
   
