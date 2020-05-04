@@ -697,11 +697,13 @@ font-weight: bold;
     width: 202px;
     height: 129px;
 }
-
-.footer a
+ a
 {
-    text-decoration:none;
+    text-decoration: none;
+    color: lightgray;
 }
+
+
 
 
 
