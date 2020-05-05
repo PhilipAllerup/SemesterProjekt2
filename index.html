@@ -4,10 +4,13 @@
         <meta charset="utf-8">
         <meta name ="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        
         <script src="menuScript.js"></script>
         <script src="jsongalleri.js"></script>
         <script src="form.js"></script>
+        
     </head>
     <body>
         <div class ="wrapper">
@@ -328,6 +331,7 @@
                             <input type = "checkbox"  id ="form_remember_btn" name ="remember_contact">
                             <label for="remember_contact" style= "font-size: 12px">Husk mig</label>
                         </form>
+                        <div id="snackbar">Some text some message..</div>   <!--text here   -->
                     </div> 
                 </section>
             </div>
@@ -337,19 +341,19 @@
                     <h3 id ="footer_title">Kontakt</h3>
                     <div class = "footer_icons">
                         <div>
-                            <img src = "Image/icons/pin-8-32.png" id ="pin_icon"><span>Rugårdsvej 191 5210 Odense NV</span>
+                            <img src="Image/icons/pin_color.png" id ="pin_icon"><span>Rugårdsvej 191 5210 Odense NV</span>
                         </div>
                          <div>
-                            <img src="Image/icons/phone-32.png"id="phone_icon"><span><a href="tel:+4566161747">Tlf. :     66161747</a></span>
+                            <a href="tel:+4566161747"><img src="Image/icons/color_phone.png"id="phone_icon"><span>Tlf. :   66161747  </span></a>
                         </div>
                         <div>
-                            <a href = "https://www.facebook.com/pages/category/Hair-Salon/Vip-coiffure-158022187632122/"><img src="Image/icons/f_logo_RGB-Grey_58.png" id="fb_icon" alt="fbicon"><span>Følg os på Facebook</span></a> 
+                            <a href = "https://www.facebook.com/pages/category/Hair-Salon/Vip-coiffure-158022187632122/"><img src="Image/icons/f_logo_RGB-Blue_58.png" id="fb_icon" alt="fb_icon"><span>Følg os på Facebook</span></a> 
                         </div>
                         <div>
-                            <a href= "https://www.instagram.com/vip_coiffure/" ><img src="Image/icons/Instagram.png" id =instagram_icon><span>Følg os på Instagram</span></a>
+                            <a href= "https://www.instagram.com/vip_coiffure/" ><img src="Image/icons/Instagram-color.png" id =instagram_icon><span>Følg os på Instagram</span></a>
                         </div>
                         <div>
-                            <a href= "mailto:someone@example.com"><img src="Image/icons/inbox-8-32%20(1).png" alt ="email" id ="email_footer"><span>Email Kontakt</span></a>
+                            <a href= "mailto:someone@example.com"><img src="Image/icons/email_color.png" alt ="email" id ="email_footer"><span>Email Kontakt</span></a>
                         </div>
                     </div>
                 </div>

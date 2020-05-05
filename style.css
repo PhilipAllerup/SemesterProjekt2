@@ -593,6 +593,11 @@ font-weight: bold;
    color: white;
 }
 
+#form_submit_btn :hover
+{
+    cursor: pointer;
+}
+
 #form_remember_btn, label
 {
     position:relative;
@@ -657,6 +662,8 @@ font-weight: bold;
      color: lightgray;
 }
 
+
+
 .footer_openinghours
 {
    
@@ -666,6 +673,9 @@ font-weight: bold;
     
     color: lightgray;
 }
+
+
+
 
 #openinghours_title
 {
@@ -702,6 +712,23 @@ font-weight: bold;
 {
     text-decoration: none;
     color: lightgray;
+}
+
+/* roder rundt her   */
+#snackbar {
+
+  min-width: 250px;
+  margin-left: -125px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 2px;
+  padding: 16px;
+  position: fixed;
+  z-index: 1;
+  left: 50%;
+  bottom: 30px;
+  font-size: 17px;
 }
 
 
