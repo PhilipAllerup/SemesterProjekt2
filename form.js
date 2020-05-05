@@ -74,12 +74,18 @@
             
            console.log("------------------------------------");
             
-        
-          $("#snackbar").animate( { height: "hide" }, 2000, name )
-          .delay( 800 )
-          .animate( { height: "show" }, 2000, name );
 
+$( "#snackbar" ).animate({
+  opacity: "show"
+}, {
+  duration: "slow",
+});
         
+            $( "#snackbar" ).delay(800).animate({
+  opacity: "hide"
+}, {
+  duration: "slow",
+});
             
         
        });
