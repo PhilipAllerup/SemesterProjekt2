@@ -75,9 +75,12 @@ p {
     display: block;
 }
 
+.nav_links li a:visited {
+  text-decoration: none;
+}
 
 .nav_links li a:hover{
-    color:lightgoldenrodyellow;
+    color:lightgoldenrodyellow; 
     background-color: #363636;
 }
 
@@ -239,6 +242,7 @@ height: auto;
 /* Baggrundsfarven når man trykker på pilene */
 .prev:hover, .next:hover {
   background-color: lightgray;
+      text-decoration: none;
       text-decoration: none;
 }
 
