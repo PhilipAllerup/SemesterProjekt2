@@ -83,6 +83,11 @@ p
     background-color: #363636;
 }
 
+.nav_links li a:active
+{
+    text-decoration: none !important;
+}
+
 
 .toggle-button{
     position: absolute;
@@ -140,8 +145,6 @@ p
 }
     
 }
-
-
 
 /*HOME*/
 .home {
@@ -228,6 +231,9 @@ height: auto;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
+  text-decoration: none !important;   /*  Easy fix Find the element   */ 
+    
+
 }
 
 /* Pilene man trykker på for at skifte billede, lidt buede hjørner indad */
@@ -241,7 +247,7 @@ height: auto;
 .prev:hover, .next:hover {
   background-color: lightgray;
       text-decoration: none;
-      text-decoration: none;
+      
 }
 
 /* Tekst under billederne */
