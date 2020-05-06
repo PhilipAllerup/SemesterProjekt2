@@ -32,6 +32,7 @@
           
             if($(this).prop("checked") == true){
                // save username and password
+                        
                         localStorage.setItem("firstname",$('#form_name').val());   // just to show that more than one way to set localeStorage.
                         localStorage.lastname = $('#form_lastname').val();
                         localStorage.email = $('#form_email').val();
@@ -58,6 +59,7 @@
           
           
         var data = $(".form_contactInfoClass").serializeArray();
+               $("#snackbar").hide();
        
      
         $("#form_submit_btn").click(function(e){
@@ -65,15 +67,28 @@
                
            DataFromLocalStorage = JSON.stringify(data);
            localStorage.setItem("Data_Form",DataFromLocalStorage);
-           
+              
             console.log(data);                         // Printing Original Object
             console.log(DataFromLocalStorage);         // Printing the Object - Stringfied by Json
             console.log(localStorage.getItem("Data_Form")); // Printing The Object - Stringfied by Json - from Local Storage
             
            console.log("------------------------------------");
+            
+
+$( "#snackbar" ).animate({
+  opacity: "show"
+}, {
+  duration: "slow",
+});
+        
+            $( "#snackbar" ).delay(800).animate({
+  opacity: "hide"
+}, {
+  duration: "slow",
+});
+            
         
        });
-    
     });  
              
         
