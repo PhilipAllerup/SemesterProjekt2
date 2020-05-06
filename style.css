@@ -12,7 +12,7 @@
 
 html{
     scroll-behavior: smooth;
-      scroll-padding-top: 70px;
+    scroll-padding-top: 70px;
 }
 
 html,body
@@ -24,7 +24,9 @@ html,body
     background-color: #2A2A2A;
     font-family: Jost;
 }
-p {
+
+p 
+{
     font-size: 1em;
 }
 .wrapper
@@ -75,9 +77,6 @@ p {
     display: block;
 }
 
-.nav_links li a:visited {
-  text-decoration: none;
-}
 
 .nav_links li a:hover{
     color:lightgoldenrodyellow; 
