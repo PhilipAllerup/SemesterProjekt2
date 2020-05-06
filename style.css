@@ -233,11 +233,13 @@ height: auto;
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
+  text-decoration: none;
 }
 
 /* Baggrundsfarven når man trykker på pilene */
 .prev:hover, .next:hover {
   background-color: lightgray;
+      text-decoration: none;
 }
 
 /* Tekst under billederne */
