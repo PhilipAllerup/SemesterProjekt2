@@ -285,9 +285,9 @@ right:26%;
  /* Plasering af produktmærker i midten af siden */  
 .slideshow-container img {
   display: block;
-  margin-left: 100px;
+  margin-left: auto;
   margin-right: auto;
-width: 60%;
+
 }
 
 /* Sektion under slider */
