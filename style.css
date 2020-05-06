@@ -333,10 +333,9 @@ width: 60%;
     font-size: 25px;
 }
 .team_title p{
-    text-align: center;
-    width:50%;
-    margin-left: auto;
-    margin-right: auto;
+   
+    width:600px;
+    margin: auto;
     margin-top: 10px;
     font-size: 18;
     
