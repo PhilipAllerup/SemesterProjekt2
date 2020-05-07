@@ -1,6 +1,6 @@
           $(()=>{
 
-       console.log(localStorage.getItem('firstname'));
+        $('#form_remember_btn').prop('checked', false);
  
                 if ( localStorage.chkbx && localStorage.chkbx !="") {
                     $('#form_remember_btn').attr('checked','checked');
@@ -10,7 +10,7 @@
                     $('#form_message').val(localStorage.message);
                     
                 } else {
-                    $('#remember_btn').removeAttr('checked');
+                    $('#form_remember_btn').prop('checked', false);
                     $('#form_name').val('');
                     $('#form_lastname').val('');
                     $('#form_tlf').val('');
@@ -24,14 +24,14 @@
                    console.log("are we here --- indeed we are");
             });  
   
-     //   $('#form_remember_btn').on("click",function() {
+      $('#form_remember_btn').on("click",function() {
                 
-              
-           // $('#form_remember_btn') !=  $('#form_remember_btn');
+      
              $('#form_remember_btn').prop('checked', true);
           
             if($(this).prop("checked") == true){
                // save username and password
+                console.log("are we here ");
                         
                         localStorage.setItem("firstname",$('#form_name').val());   // just to show that more than one way to set localeStorage.
                         localStorage.lastname = $('#form_lastname').val();
@@ -47,7 +47,7 @@
                         localStorage.message = '';
                         localStorage.chkbx = '';
                     }
-           //   });
+              });
         
       
         
