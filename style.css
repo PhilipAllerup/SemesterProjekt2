@@ -36,7 +36,9 @@ p
     max-width: 1152px;
 }
 
- 
+.superh1{
+    font-size: 2em;
+}
 
 /*Menu-Bar*/
 
@@ -584,9 +586,10 @@ padding-top: 0px;
 {
   
 }
+
 .form_container{
     position: relative;
-    padding: 50px; 
+    padding: 50px 50px 50px 9%; 
     background-color: #3A3A3A;
     height: 700px;
     
