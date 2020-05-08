@@ -393,7 +393,23 @@ color: white;
     border: 2px solid black;
 }
 
+blockquote p::before{
+   content: "“";
+   font-family: Georgia;
+   font-size: 70px;
+   margin: -19px -12px -18px -35px;
+   position: absolute;
+color:PaleGoldenRod;
+}
 
+blockquote p::after{
+   content: "”";
+   font-family: Georgia;
+   font-size: 70px;
+   margin: -4px 2px -42px;
+   position: absolute;
+    color:PaleGoldenRod;
+}
 
  
 /* Sanne billede position */  
@@ -405,6 +421,7 @@ color: white;
         margin-left: 100px;
         margin-top: 30px;
     }
+
 /* Jan billede position */  
     #Jan {
         float: left;
