@@ -6,6 +6,7 @@
                     $('#form_remember_btn').attr('checked','checked');
                     $('#form_name').val(localStorage.firstname);
                     $('#form_lastname').val(localStorage.lastname);
+                    $('#form_email').val(localStorage.email);
                     $('#form_tlf').val(localStorage.number);
                     $('#form_message').val(localStorage.message);
                     
@@ -13,6 +14,7 @@
                     $('#form_remember_btn').prop('checked', false);
                     $('#form_name').val('');
                     $('#form_lastname').val('');
+                    $('form_email').val('');
                     $('#form_tlf').val('');
                     $('#form_message').val('');
                 }
@@ -50,7 +52,7 @@
               });
         
       
-        
+        /*  Note hvis form skal huske en skal man gemme knap val */
             
         var DataToLocalStorageFromEachLoop = [];
         var DataToLocalStorage = {};
