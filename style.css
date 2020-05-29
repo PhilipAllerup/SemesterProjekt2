@@ -761,7 +761,7 @@ padding-top: 0px;
     float: left;
     width: 33%;
     left: 350;
-    bottom:100;
+    bottom:150;
     margin-left: 20px;
   
 }
@@ -781,16 +781,19 @@ a
 /* roder rundt her   */
 #snackbar {
 
-  min-width: 250px;
-  margin-left: -125px;
+  min-width: 350px;
+ 
   background-color: #68ff00;
- color: #fff;
+  color: black;
+  font-size: 24px;
+ font-weight: bold;
   text-align: center;
-  border-radius: 2px;
+  border-radius: 50px;
+   
   padding: 16px;
   position: fixed;
   z-index: 1;
-  left: 50%;
+  left: 42%;
   bottom: 400px;
   font-size: 17px;
 }

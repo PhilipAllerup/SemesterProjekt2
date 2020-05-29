@@ -86,7 +86,7 @@ $( "#snackbar" ).animate({
             $( "#snackbar" ).delay(2000).animate({
   opacity: "hide"
 }, {
-  duration: "slow",
+  duration: "2000",
 });
             
         
